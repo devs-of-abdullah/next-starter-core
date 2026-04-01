@@ -1,0 +1,23 @@
+{
+  "welcome": "Welcome to the SaaS Kit",
+  "dashboard": "Dashboard Overview",
+  "settings": "Settings",
+  "profile": "Profile",
+  "signOut": "Sign Out",
+  "totalUsers": "Total Users",
+  "securityStatus": "Security Status",
+  "activeSessions": "Active Sessions",
+  "failedLogins": "Failed Logins",
+  "activeMembers": "Active members",
+  "layer7Protected": "Layer 7 Protected",
+  "inLastHour": "In the last hour",
+  "blockedAttempts": "Blocked attempts",
+  "architectureHighlights": "Architecture Highlights",
+  "layeredSecurity": "Layered Security Model",
+  "cleanDomainBoundaries": "Clean Domain Boundaries",
+  "globalApiErrorMapping": "Global API Error Mapping",
+  "strictRbac": "Strict RBAC implementation",
+  "quickActions": "Quick Actions",
+  "manageRoles": "Manage Roles and Permissions",
+  "auditLogs": "Audit Logs Viewer"
+}

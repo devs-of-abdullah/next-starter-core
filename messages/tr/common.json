@@ -1,0 +1,23 @@
+{
+  "welcome": "SaaS Kit'e Hoşgeldiniz",
+  "dashboard": "Kontrol Paneli",
+  "settings": "Ayarlar",
+  "profile": "Profil",
+  "signOut": "Çıkış Yap",
+  "totalUsers": "Toplam Kullanıcılar",
+  "securityStatus": "Güvenlik Durumu",
+  "activeSessions": "Aktif Oturumlar",
+  "failedLogins": "Başarısız Girişler",
+  "activeMembers": "Aktif üyeler",
+  "layer7Protected": "Katman 7 Korumalı",
+  "inLastHour": "Son 1 saatte",
+  "blockedAttempts": "Engellenen girişimler",
+  "architectureHighlights": "Mimari Öne Çıkanlar",
+  "layeredSecurity": "Katmanlı Güvenlik Modeli",
+  "cleanDomainBoundaries": "Temiz Alan Sınırları",
+  "globalApiErrorMapping": "Global API Hata Eşleme",
+  "strictRbac": "Sıkı RBAC uygulaması",
+  "quickActions": "Hızlı İşlemler",
+  "manageRoles": "Rolleri ve İzinleri Yönet",
+  "auditLogs": "Denetim Günlükleri Görüntüleyici"
+}

@@ -1,0 +1,23 @@
+{
+  "welcome": "مرحباً بك في SaaS Kit",
+  "dashboard": "لوحة القيادة",
+  "settings": "الإعدادات",
+  "profile": "الملف الشخصي",
+  "signOut": "تسجيل الخروج",
+  "totalUsers": "إجمالي المستخدمين",
+  "securityStatus": "حالة الأمان",
+  "activeSessions": "الجلسات النشطة",
+  "failedLogins": "تسجيلات الدخول الفاشلة",
+  "activeMembers": "الأعضاء النشطين",
+  "layer7Protected": "محمي بالطبقة 7",
+  "inLastHour": "في الساعة الأخيرة",
+  "blockedAttempts": "المحاولات المحظورة",
+  "architectureHighlights": "أبرز ملامح البنية",
+  "layeredSecurity": "نموذج أمان متعدد الطبقات",
+  "cleanDomainBoundaries": "حدود نطاق نظيفة",
+  "globalApiErrorMapping": "تخطيط أخطاء API العالمية",
+  "strictRbac": "تنفيذ RBAC الصارم",
+  "quickActions": "إجراءات سريعة",
+  "manageRoles": "إدارة الأدوار والصلاحيات",
+  "auditLogs": "عارض سجلات التدقيق"
+}
