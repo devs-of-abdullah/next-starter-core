@@ -7,16 +7,11 @@ async function loadMessages(locale: Locale) {
   const entries = await Promise.all(
     NAMESPACES.map(async (ns) => {
       try {
-        const messages = (await import(`../messages/${locale}/${ns}.json`))
-          .default;
-
+        const messages = (await import(`../messages/${locale}/${ns}.json`)).default;
         return [ns, messages] as const;
-      } catch {
-        // fallback to default locale if missing
-        const fallback = (
-          await import(`../messages/${routing.defaultLocale}/${ns}.json`)
-        ).default;
-
+      }
+       catch {
+        const fallback = (await import(`../messages/${routing.defaultLocale}/${ns}.json`)).default;
         return [ns, fallback] as const;
       }
     }),
@@ -32,8 +27,5 @@ export default getRequestConfig(async ({ requestLocale }) => {
     locale = routing.defaultLocale;
   }
 
-  return {
-    locale,
-    messages: await loadMessages(locale as Locale),
-  };
+  return {locale, messages: await loadMessages(locale as Locale)};
 });
